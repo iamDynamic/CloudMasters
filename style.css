@@ -62,13 +62,14 @@ article .btn-container{
     text-align: center;
     margin-top: 40px;
     border: solid #fff 3px;
+    background-color: #fff;
     border-radius: 20px;
     padding: 10px;
 }
 article .btn-container input[type='text']{
     width: 80%;
     color: #fff;
-    border: solid #023047;
+    border: solid #000;
     background-color: #008B8B;
     padding: 10px;
 }
