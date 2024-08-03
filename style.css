@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body{
+    background: url(./Images/background.webp);
+}
+nav {
+    background-color: #008B8B;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+}
+nav aside h1{
+    font-size: 30px;
+    margin-left: 50px;
+}
+nav section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 380px;
+}
+nav section a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+nav section a:hover{
+    text-decoration: underline;
+}
+nav main button{
+    padding: 10px;
+    background-color: #023047;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+article{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+article img{
+    margin-left: 180px  ;
+}
+article h1{
+    margin-top: 30px;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #fff;
+}
+article .btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    margin-top: 40px;
+    border: solid #fff 3px;
+    border-radius: 20px;
+    padding: 10px;
+}
+article .btn-container input[type='text']{
+    width: 80%;
+    color: #fff;
+    border: solid #023047;
+    background-color: #008B8B;
+    padding: 10px;
+}
+::placeholder{
+    color: #fff;
+}
+article .btn-container button{
+    width: 90px;
+    padding: 10px;
+    background-color: #023047;
+    color: #fff;
+    cursor: pointer;
+}
