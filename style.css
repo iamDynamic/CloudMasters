@@ -69,7 +69,7 @@ article .btn-container{
 article .btn-container input[type='text']{
     width: 80%;
     color: #fff;
-    border: solid #000;
+    border: 3px solid #000;
     background-color: #008B8B;
     padding: 10px;
 }
